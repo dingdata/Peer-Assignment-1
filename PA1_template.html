@@ -108,7 +108,7 @@ max.interval</code></pre>
 <pre class="r"><code>dim(data[is.na(data$steps), ])[1]</code></pre>
 <pre><code>## [1] 2304</code></pre>
 <p>Number of missing value is 2304</p>
-<p>Fill all of the missing values in the dataset to the mean values for that 5-minute interval.</p>
+<p>Fill all missing values in the dataset with the mean values for that 5-minute interval.</p>
 <pre class="r"><code># 
 steps &lt;- vector()
 for (i in 1:dim(data)[1]) {

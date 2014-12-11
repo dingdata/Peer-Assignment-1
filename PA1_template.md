@@ -95,7 +95,7 @@ dim(data[is.na(data$steps), ])[1]
 
 Number of missing value is 2304
 
-Fill all of the missing values in the dataset to the mean values for that 5-minute interval.
+Fill all  missing values in the dataset with the mean values for that 5-minute interval.
 
 
 ```r
